@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       current_item = src[row_index][element_index]
       if current_item.is_a?(String)
-        total += (current_item+"")
+        total += (current_item+" ")
       end
     element_index += 1 
   end 
