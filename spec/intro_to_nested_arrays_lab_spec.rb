@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 mixed_data_1 = [
-  ["The", 4, "quick"],
-  [-1, "brown", "fox", 30],
-  ["studied", 101, 233, "Ruby"]
+  ["The", 4, " quick"],
+  [-1, " brown", " fox", 30],
+  [" studied", 101, 233, " Ruby"]
 ]
 
 mixed_data_2 = [
